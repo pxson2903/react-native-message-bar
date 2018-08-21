@@ -19,7 +19,7 @@ import {
 let windowWidth = Dimensions.get('window').width
 let windowHeight = Dimensions.get('window').height
 
-class MessageBar extends Component {
+class SimpleMessageBar extends Component {
   constructor (props) {
     super(props)
 
@@ -147,7 +147,7 @@ class MessageBar extends Component {
       viewRightInset: props.viewRightInset || def.viewRightInset || 0,
 
       /* Padding around the content, useful if you want a tiny message bar */
-      messageBarPadding: props.messageBarPadding || def.messageBarPadding || 4,
+      messageBarPadding: props.messageBarPadding || def.messageBarPadding || 2,
 
       /* Number of Lines for Title and Message */
       titleNumberOfLines:
@@ -167,11 +167,10 @@ class MessageBar extends Component {
         fontWeight: 'bold'
       },
       messageStyle: props.messageStyle || def.messageStyle || {
-        fontSize: 16,
         justifyContent: "center",
         alignItems: "center",
         textAlign: "center",
-        height: 12, 
+        height: 14, 
         fontSize: 12, 
         fontWeight: 'bold',
         flex:1,
@@ -540,4 +539,4 @@ class MessageBar extends Component {
   }
 }
 
-module.exports = MessageBar
+module.exports = SimpleMessageBar
