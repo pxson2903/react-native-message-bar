@@ -1,7 +1,7 @@
 {
-  "name": "react-native-message-bar",
-  "version": "1.6.0",
-  "description": "A message bar alert displayed at the top of the screen for react-native",
+  "name": "react-native-simple-message-bar",
+  "version": "1.0.0",
+  "description": "A 1-line message bar alert displayed at the top of the screen for react-native",
   "main": "index.js",
   "private": false,
   "author": "KBLNY <ktgr45@hotmail.com> (https://github.com/kblny)",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:KBLNY/react-native-message-bar.git"
+    "url": "git@github.com:pxson2903/react-native-simple-message-bar.git"
   },
   "keywords": [
     "react-native",
@@ -31,7 +31,7 @@
     "LICENSE"
   ],
   "bugs": {
-    "url": "https://github.com/KBLNY/react-native-message-bar/issues"
+    "url": "https://github.com/pxson2903/react-native-message-bar/issues"
   },
   "license": "MIT"
 }
