@@ -13,7 +13,8 @@ import {
   Animated,
   Dimensions,
   Image,
-  StatusBar
+  StatusBar,
+  Platform
 } from 'react-native'
 
 let windowWidth = Dimensions.get('window').width
@@ -170,7 +171,7 @@ class SimpleMessageBar extends Component {
         justifyContent: "center",
         alignItems: "center",
         textAlign: "center",
-        height: 14, 
+        height: (Platform.OS === 'android') ? 20 : 16, 
         fontSize: 12, 
         fontWeight: 'bold',
         flex:1,
