@@ -1,4 +1,4 @@
-import MessageBar from './MessageBar';
-import MessageBarManager from './MessageBarManager';
+import SimpleMessageBar from './SimpleMessageBar';
+import SimpleMessageBarManager from './SimpleMessageBarManager';
 
-module.exports = {MessageBar, MessageBarManager};
+module.exports = {SimpleMessageBar, SimpleMessageBarManager};
